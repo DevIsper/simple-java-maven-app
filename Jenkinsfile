@@ -9,7 +9,7 @@ configurou
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/DevIsper/simple-java-maven-app' 
+                git 'https://github.com/DevIsper/simple-java-maven-app/tree/master/jenkins' 
 // Altere para a URL do seu repositório
             }
         }
