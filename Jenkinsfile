@@ -9,7 +9,7 @@ configurou
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/seu-usuario/seu-repositorio.git' 
+                git 'https://github.com/DevIsper/simple-java-maven-app' 
 // Altere para a URL do seu repositório
             }
         }
